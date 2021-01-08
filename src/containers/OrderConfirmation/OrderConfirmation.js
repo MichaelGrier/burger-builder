@@ -9,7 +9,7 @@ const OrderConfirmation = () => {
     <div className={classes.OrderConfirmation}>
       <h2 className={classes.Header}>Enjoy Your Meal!</h2>
       <p style={{marginBottom: 0}}>Your order is on its way.</p>
-      <NavLink to="/"><Button btnType="Success">Home</Button></NavLink>
+      <NavLink to="/orders"><Button btnType="Success">View Orders</Button></NavLink>
     </div>
   )
 }
